@@ -120,7 +120,7 @@ fun IsiHalaman(
         Row (modifier = Modifier
             .fillMaxWidth()
             .fillMaxHeight(),
-            verticalAlignment = Alignment.Bottom,
+            verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceAround) {
             val icon = painterResource(R.drawable.baseline_add_home_24)
             Column(modifier = Modifier, horizontalAlignment = Alignment.CenterHorizontally) {
